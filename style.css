@@ -1,0 +1,64 @@
+html { overflow-y: hidden; }
+
+
+@font-face {
+    font-family: 'typograph_prolight';
+    src: url('font/typograph_pro_light-webfont.woff2') format('woff2'),
+         url('font/typograph_pro_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.title {
+	text-align: center;
+	font-family: 'typograph_prolight';
+}
+
+
+
+.form-div {
+
+	height: 680px;
+	width: 40%;
+	margin: auto;
+	padding: 30px;
+	background-color: white;
+	overflow: hidden;
+ }
+
+
+.form_group {
+	position: relative;
+	left: 60px;
+	margin: auto;
+}
+
+.birth {
+	width: 90px;
+	margin-left: 5px;
+	margin-right: 5px;
+ }
+
+.send {
+	background-color: #ac8642;
+	color: white;
+	height: 30px;
+	width: 160px;
+	
+}
+
+.form_submit {
+	margin-left: 60px;
+
+}
+
+.req {
+	vertical-align: top;
+}
+
+body {
+	background-image: url(images/hotel_wallpaper.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
