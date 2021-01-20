@@ -1,7 +1,6 @@
 <?php
-include('db/db.php');
-include('db/user.php');
 
+include('create.php');
 
 
 ?>
@@ -16,10 +15,10 @@ include('db/user.php');
 <body>
 	
 	<div class="form-div">
-		<h1 class="title"> Formulaire de réservation</h1>
+		<h1 class="title">Formulaire de réservation</h1>
 		<br>
 
-		<form method="post" action="create.php" class="op">
+		<form method="post" action="user.php" class="op">
 			<div class="form_group">
 				<label for="firstname">Prénom :</label>
 				<input type="text" name="firstname" placeholder="votre prénom">
@@ -107,7 +106,7 @@ include('db/user.php');
 			<br>
 
             <div class="form_submit">
-				<button type="submit"  class="send">Faire une Réservation</button>
+				<button type="submit"  class="send"><a href="create.php">Faire une Réservation</a></button>
 			</div>
 		</form>
 	</div>
